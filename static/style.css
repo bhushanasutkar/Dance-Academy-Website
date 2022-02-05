@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Vollkorn:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: #cfe3e3;
+    margin: 10px;
+    border-radius: 10px;
+}
+#navbar ul img{
+    height: 57px;
+    margin: 0px 10px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+/* #navbar ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-shadow: rgb(142, 142, 189) 1px 1px 1px;
+    margin: 5px 15px;
+} */
+
+#navbar li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-shadow: rgb(142, 142, 189) 1px 1px 1px;
+    margin: 5px 15px;
+}
+#navbar li a{
+    list-style: none;
+    text-decoration: none;
+}
+#navbar li{
+    cursor: pointer;
+    padding: 9px;
+    /* background-color: aquamarine; */
+}
+
+#navbar p{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+#introsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 2px ;
+}
+#introsection div{
+
+    font-family: 'Vollkorn', serif;
+        font-size: 2rem;
+        font-weight: 100;
+        text-shadow: blue -2px 1px 1px;
+        height: 92px;
+}
+.register{
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    position: relative;
+    animation-name: bhushan;
+    animation-duration: 0.5s;
+    animation-fill-mode: alternate; 
+    animation-iteration-count: infinite;
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgb(255, 81, 0);
+    cursor: pointer;
+    align-items: center;
+    height: 50%;
+
+
+}
+@keyframes bhushn{
+    from{
+        top: 0px;
+        /* width: 57%; */
+        /* height: 48%; */
+    }
+    to{
+        top: 4px;
+        /* width: 63%; */
+        /* height: 52%; */
+
+    }
+}
+
+.register:hover{
+    animation: none;
+}
+.register a{
+    outline: none;
+    text-decoration: none;
+    font-family: 'Rubik Beastly', cursive;
+    text-shadow: rgb(208, 208, 253) 1px 1px 1px;
+
+}
+#introsection div p{
+    text-align: center;
+}
+
+#introsection{
+    
+    /* background-color: brown; */
+}
+.photu{
+    height: 294px;
+    margin-left: 205px;
+    width: auto;
+    position: relative;
+    animation-name: bhushanimg;
+    animation-duration: 0.5s;
+    animation-fill-mode: alternate; 
+    animation-iteration-count: infinite;
+}
+@keyframes bhushanimg{
+    from{
+        top: 0px;
+       
+    }
+    to{
+        top: 4px;
+       
+
+    }
+}
+
+
+
+#sponsorsection{
+    height: 500px;
+    background-color: rgb(2, 2, 2);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#sponsorsection div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.cards{
+ 
+    height: 175px;
+    margin: 8px;
+    width: 335px;
+    border: 2px solid red;
+}
+
+.cards:hover{
+    /* position: relative;
+
+    animation-name: bhushan;
+    animation-duration: 1s;
+    animation-fill-mode: alternate;
+    animation-iteration-count: 6; */
+    background-color: bisque;
+    box-shadow: red 5px 5px 5px;
+    
+    
+
+}
+@keyframes bhushana{
+    from{
+        height: 275px; 
+        width: 365px;
+
+    }
+    to{
+        height: 285px; 
+        width: 375px;
+    }
+}
+
+#register{
+ background-color: black; 
+ height: 70px;  
+}
+#register h1{
+    text-align: center;
+    border: 2px solid red;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    background-color: rgb(212, 16, 16);
+    border-radius: 20px;
+    width: 30%;
+    margin:  auto;
+    font-weight: 100;
+
+  
+}
+#register h1 a{
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    color: cornsilk;
+}
+#register div :hover{
+    background-color: rgb(180, 7, 7);
+    cursor: pointer;
+}
+
+
+#services{
+    height: 500px;
+    width: 100%;
+   background-color: rgb(22, 22, 22);
+
+}
+/* #services::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    /* background: url(../static/wp2785366.png) ; */
+    height: 500px;
+    width: 100%;
+   opacity: 1;
+} */
+
+.services p{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.services{
+display: flex;
+flex-direction:column;
+justify-content: center;
+height: 300px;
+width: 100%;
+align-items: flex-start;
+}
+.ll{
+   margin-right: 10px;
+   font-size: 2rem;
+   margin-left: 60px;
+   color: wheat;
+
+    
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.grey p{
+    color: wheat;
+    font-size: 25px;
+}
+.image img{
+    filter: revert;
+    height: 84px;
+    width: 84px;
+    margin-left: 10px;
+}
+.image{
+    /* height: 100%; */
+    width: 50%;
+    /* margin-left: 30px; */
+}
+.image:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    font-size: 1.3rem;
+    text-align: left;
+    background-color: black;
+    color: white;
+    /* align-items: center; */
+    padding-top: 10px;
+    
+}
+#footer img{
+    height: 30px;
+    width: 156px;
+    margin-left: 79px;
+    margin-bottom: 5px;
+    filter: invert(1);
+}
+
+#footer p{
+    margin: 0px 5px;
+}

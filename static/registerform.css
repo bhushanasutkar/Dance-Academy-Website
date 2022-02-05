@@ -1,0 +1,116 @@
+body::before{
+    background: url(../static/ll.jpg)  ;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+
+#navbar{
+    background-color: #2b2323;
+    
+}
+#navbar p{
+    color: white;
+}
+#navbar li a{
+    color: white;
+}
+#navbar li{
+    color: red;
+    /* text-shadow: rgb(250, 65, 65) 1px 1px 1px; */
+   
+}
+
+
+.heading{
+    background-color: rgb(216, 201, 201);
+    color: rgba(112, 55, 55, 0.925);
+    font-weight: bold;
+    animation: hii;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation-name: bhushan;
+    animation-duration: 0.5s;
+    animation-fill-mode: alternate; 
+    animation-iteration-count: infinite;
+}
+@keyframes bhushn{
+    from{
+       
+        width: 50%;
+        
+    }
+    to{
+       
+        width: 70%;
+     
+
+    }
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 10px auto;
+    border: 2px solid red;
+   
+    padding: 14px 0px;
+    box-shadow: rgb(238, 40, 33) 4px 2px 2px;
+ margin-left: 4px;
+    margin-top: 30px;
+}
+.myinput{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    width: 60%;
+    margin: 10px;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgb(231, 204, 204);
+    color: rgb(0, 0, 0);
+    /* border: 8px solid red; */
+}
+.myinput ::placeholder{
+    color: seashell;
+}
+
+/* .container{
+    min-height: 90vh;
+} */
+.heading{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.btn{
+    padding: 4px;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    width: 150px;
+    background-color: rgb(231, 204, 204);
+    margin-right: 415px
+
+}
+
+.btn:hover{
+    background-color: rgb(109, 86, 75);
+}
+
+#footer{
+    /* position: absolute; */
+    margin-top: 80px;
+    background-color: #2b2323;
+}

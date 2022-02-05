@@ -1,0 +1,34 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+
+block style
+    style 
+        include ../static/style.css
+
+block content
+    //- nav#navbar.navtop 
+    //-     ul 
+    //-         img(src="../static/dancelogo.jpg", alt="why")
+    //-         p DDA
+    //-         li #[a(href="/") Home] 
+    //-         li #[a(href="#sponsorsection") About] 
+    //-         li #[a(href="/services") Services] 
+    //-         li #[a(href="/contact") Contact]
+    
+    section#introsection 
+        div Welcome to Drakes Dance Academy
+            p Learn from the BEST
+            p.register #[a(href="/register")] REGISTER NOW
+        img.photu(src="../static/penguins-153879.svg", alt="") 
+    section#sponsorsection
+        div  
+            .cards hi
+            .cards hi
+            .cards hi
+        div
+            .cards hi
+            .cards hi
+            .cards hi 
+    section#contactsection 

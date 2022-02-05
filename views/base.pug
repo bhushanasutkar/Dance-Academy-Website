@@ -1,0 +1,17 @@
+html
+  head
+    title Drakes Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar.navtop 
+        ul 
+            img(src="../static/dancelogo.jpg", alt="why")
+            p DDA
+            li #[a(href="/") Home] 
+            li #[a(href="/about") About] 
+            li #[a(href="/services") Services] 
+            li #[a(href="/contact") Contact]
+    block content
+    footer#footer
+      | Copyright © 2021 DrakesDanceAcademy.com | All rights reserved   

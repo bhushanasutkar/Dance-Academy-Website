@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.navtop 
+        ul 
+            img(src="../static/dancelogo.jpg", alt="why")
+            p DDA
+            li #[a(href="/") Home] 
+            li #[a(href= "/about") About] 
+            li #[a(href="/services") Services] 
+            li #[a(href="/contact") Contact]
+    
+    section#introsection 
+        div Welcome to Drakes Dance Academy
+            p Learn from the BEST
+            p.register #[a(href="#sponsorsection") REGISTER NOW]
+        img.photu(src="../static/penguins-153879.svg", alt="") 
+    section#sponsorsection
+        div  
+            img(src="../static/bg1.jpg", class="cards",alt="")
+            img(src="../static/bg2.jpg", class="cards",alt="")
+            img(src="../static/bg3.jpg", class="cards",alt="")
+            
+        div
+            img(src="../static/bg4.jpg", class="cards",alt="")
+            img(src="../static/bg5.jpg", class="cards",alt="")
+            img(src="../static/bg6.jpg", class="cards",alt="")
+           
+    
+    section#register
+      div 
+        h1 #[a(href="/register") CLICK TO REGISTER]
+    section#services 
+      div.services 
+        div.ll Over 300 Online Dance Classes with the world's best choreographers! 
+        div.ll New classes added every week!      
+      div.grey
+        div.image 
+            img(src="../static/1.png", alt="")
+            p Learn to dance 
+            P from top instructors.
+        div.image 
+            img(src="../static/2.png", alt="")
+            p Watch Anywhere
+            P from top instructors.
+        div.image 
+            img(src="../static/3.png", alt="")
+            p No Commitments  
+            P cacel online anytime.
+    footer#footer
+      p  © 2021DrakesDanceAcademy.com | All rights reserved                                  
+      p  Help/FAQ 
+      img(src="../static/alll.png", alt="")
+
+
+    script
+      include ../static/index.js

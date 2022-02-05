@@ -1,0 +1,37 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js")
+
+block style
+    style 
+        include ../static/style.css
+        include ../static/contact.css
+
+
+block content
+    section#services 
+      div.services 
+        div.ll Over 300 Online Dance Classes with the world's best choreographers! 
+        div.ll New classes added every week!      
+      div.grey
+        div.image 
+            img(src="../static/1.png", alt="")
+            p Learn to dance 
+            P from top instructors.
+        div.image 
+            img(src="../static/2.png", alt="")
+            p Watch Anywhere
+            P from top instructors.
+        div.image 
+            img(src="../static/3.png", alt="")
+            p No Commitments  
+            P cacel online anytime.
+    footer#footer
+      p  © 2021DrakesDanceAcademy.com | All rights reserved                                  
+      p  Help/FAQ 
+      img(src="../static/alll.png", alt="")
+ 
+            
+         
+    
